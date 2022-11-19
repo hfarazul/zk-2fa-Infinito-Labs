@@ -20,6 +20,7 @@ contract OTP {
         root = merkleRoot;
     }
 
+
     modifier isValidProof(
         uint256[2] memory a,
         uint256[2][2] memory b,
